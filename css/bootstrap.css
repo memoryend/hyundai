@@ -4171,7 +4171,25 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 2.7rem 1rem;
+}
+@media (max-width: 991.98px) {
+  .navbar{
+    border-bottom: 1px solid #fff;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+  }
+}
+
+.navbar > .container{border: 5px solid #fff; height: 70px;}
+.navbar > .container:hover{border: 5px solid #00448d; height: 70px;}
+@media (max-width: 991.98px) {
+  .navbar > .container{
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .navbar > .container,
@@ -4191,9 +4209,16 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
+  padding-left: 1.5rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+}
+@media (max-width: 991.98px) {
+  .navbar-brand{
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4206,6 +4231,7 @@ input[type="button"].btn-block {
   -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 0;
+  padding-right: 1.5rem;
   margin-bottom: 0;
   list-style: none;
 }
