@@ -7,7 +7,7 @@ background-size: cover; */color:#fff; /*padding-top: 30px; padding-bottom: 50px;
 .navbar > .container:hover{background: #333;}
 .header .navbar-nav .nav-item a.nav-link{display: block; color: #fff;}
 .header .navbar-nav .nav-item a.nav-link:hover{display: block; color: #00448d;}
-.main-visual{width: 100%; height: 1000px;}
+.main-visual{width: 100%;}
 .main-visual ul{padding-inline-start:0;}
 
 .main-visual{position: relative;}
@@ -18,14 +18,30 @@ background-size: cover; */color:#fff; /*padding-top: 30px; padding-bottom: 50px;
 .visual-text-sub h3{width: 403px; height: 89px;float: right; padding: 0 15px;}
 .visual-text h4{width: 855px; height: 36px; margin: 0 auto; position: relative; top: 150px;}
 .bx-controls-direction{display: none;}
+.bx-wrapper{margin-bottom: 0;}
 
-.card{position: relative; }
+.tec{background: url(../images/main/tech_bg4.jpg) no-repeat center;}
+.tech{font-size: 50px; color:#fff; width: 324px; margin: 0 auto;}
+.card{width: 235px; height: 410px;position: relative; border: none; border-radius: none;}
 .card:hover .card-body{opacity: 1;}
-.card-body{transition:0.3s;opacity: 0;width: 100%;height: 481px;position: absolute;top: 0; padding-top:100px; background: rgba(0,0,0,0.5);}
-.card-title{}
+.card-body{transition:0.3s;opacity: 0;width: 100%;height: 410px;position: absolute;top: 0; padding-top:100px; background: rgba(0,0,0,0.5);}
+.card-title{font-size: 22px;}
 .card-text{font-size: 14px;}
-.card a.btn{width: 230px; background: rgba(000,000,000,0); border: 1px solid #fff; display: block;}
-.card a.btn:hover{background:rgba(000,000,000,1);} 
+.card a.btn{width: 190px; margin: 0 auto;background: rgba(0,0,0,0); border: 1px solid #fff; display: block;}
+.card a.btn:hover{background:rgba(0,67,141,.5);} 
+.bg-grey{background: #f5f5f5;}
+img{max-width: 100%;}
+.footer{background: #0d121b; text-align: center; padding: 30px 50px 100px 50px; color:#555d6d;}
+
+.car{background: url(../images/main/content1.jpg) no-repeat center;}
+.care{font-size: 50px; color:#333; width: 246px; margin: 0 auto;}
+.card{width: 235px; height: 410px;position: relative; border: none; border-radius: none;}
+.card:hover .card-body{opacity: 1;}
+.card-body{transition:0.3s;opacity: 0;width: 100%;height: 410px;position: absolute;top: 0; padding-top:100px; background: rgba(0,0,0,0.5);}
+.card-title{font-size: 22px;}
+.card-text{font-size: 14px;}
+.card a.btn{width: 190px; margin: 0 auto;background: rgba(0,0,0,0); border: 1px solid #fff; display: block;}
+.card a.btn:hover{background:rgba(0,67,141,.5);} 
 .bg-grey{background: #f5f5f5;}
 img{max-width: 100%;}
 .footer{background: #0d121b; text-align: center; padding: 30px 50px 100px 50px; color:#555d6d;}
