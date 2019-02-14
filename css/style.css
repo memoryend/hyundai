@@ -35,9 +35,33 @@ background-size: cover; */color:#fff; /*padding-top: 30px; padding-bottom: 50px;
 .care{font-size: 50px; color:#333; width: 246px; margin: 0 auto;}
 
 
-.news{width: 100%; padding: 0;}
+/*.news{width: 100%; padding: 0;}
 
 .soc{padding: 0;}
 .comm{width: 100%; padding-right: 0;}
 .comm2{padding-left: 0;}
-.comm-img{}
+.comm-img{}*/
+
+.news img{max-width: 100%;}
+
+.comm img{max-width: 100%;}
+
+@media (min-width: 768px) and (max-width: 814px){
+	.card{height: 238px;}
+ 	.card-body{height: 238px;}
+}
+
+@media (min-width: 815px) and (max-width: 991px){
+	.card{height: 250px;}
+ 	.card-body{height: 250px;}
+}
+
+@media (min-width: 992px) and (max-width:1053px) {
+	.card{height: 327px;}
+ 	.card-body{height: 327px;}
+}
+
+@media (min-width: 1054px) and (max-width: 1199px){
+	.card{height: 355px;}
+	.card-body{height: 355px;}
+}
