@@ -4,11 +4,12 @@ li{list-style:none;}
 .header{width: 100%;/*background: url(../images/main/main-visual01.jpg) no-repeat center top; -ms-background-size: cover;
 background-size: cover; */color:#fff; /*padding-top: 30px; padding-bottom: 50px;*/}
 /*.header a.navbar-brand{display: block; width: 140px; height: 33px; background: url(../images/main/logo.png) no-repeat 50% 50%;}*/
-.navbar > .container:hover{background: #333;}
 .header .navbar-nav .nav-item a.nav-link{display: block; color: #fff;}
-.header .navbar-nav .nav-item a.nav-link:hover{display: block; color: #00448d;}
+.dropdown-menu{border-radius: 0rem;}
 .main-visual{width: 100%;}
 .main-visual ul{padding-inline-start:0;}
+.main-visual img{width: 100%;}
+.dropdown-item:hover{background: #00448d;color:#fff;}
 
 .main-visual{position: relative;}
 .visual-text{width: 1200px; position: absolute; top: 35%; left: 50%; transform:translate(-35%, -50%);}
@@ -20,7 +21,7 @@ background-size: cover; */color:#fff; /*padding-top: 30px; padding-bottom: 50px;
 .bx-controls-direction{display: none;}
 .bx-wrapper{margin-bottom: 0;}
 
-div.tec1{background: url(../images/main/tech_bg4.jpg) no-repeat center;}
+div.tec1{background: url(../images/main/tech_bg4.jpg) no-repeat center; background-size: cover;}
 div.tec1 h2{font-size: 45px; color:#fff;}
 div.tec1 .card{position: relative; border: none;}
 div.tec1  img{max-width:100%;display: block;}
@@ -33,8 +34,8 @@ div.tec1 .card:hover div.card-body1{opacity: 1;}
 div.tec1 .card a{display: block; background: rgba(0,0,0,.3); color:#fff; border: 1px solid #fff;}
 div.tec1 .card a:hover{background: rgba(255,255,255,.7); color:#00448d; border: 1px solid #00448d;}
 
-div.tec2{background: url(../images/main/content1.jpg) no-repeat center;}
-div.tec2 h2{font-size: 45px; color:#555;}
+div.tec2{background: url(../images/main/tech_bg2.jpg) no-repeat center; background-size: cover;}
+div.tec2 h2{font-size: 45px; color:#fff;}
 div.tec2 .card{position: relative; border: none;}
 div.tec2  img{max-width:100%;display: block;}
 		
@@ -46,7 +47,7 @@ div.tec2 .card:hover div.card-body1{opacity: 1;}
 div.tec2 .card a{display: block; background: rgba(0,0,0,.3); color:#fff; border: 1px solid #fff;}
 div.tec2 .card a:hover{background: rgba(255,255,255,.7); color:#00448d; border: 1px solid #00448d;}
 
-div.tec3{background: url(../images/main/tech_bg0.jpg) no-repeat center;}
+div.tec3{background: url(../images/main/tech_bg0.jpg) no-repeat center; background-size: cover;}
 div.tec3 h2{font-size: 45px; color:#fff;}
 div.tec3 img{max-width: 100%; display: block;}
 div.tec3 h4{color:#fff; font-size: 20px;}
