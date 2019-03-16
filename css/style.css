@@ -21,7 +21,7 @@ background-size: cover; */color:#fff; /*padding-top: 30px; padding-bottom: 50px;
 .bx-controls-direction{display: none;}
 .bx-wrapper{margin-bottom: 0;}
 
-div.tec1{background: url(../images/main/tech_bg4.jpg) no-repeat center; background-size: cover;}
+div.tec1{background: url(../images/main/tech_bg1.jpg) no-repeat center; background-size: cover;}
 div.tec1 h2{font-size: 45px; color:#fff;}
 div.tec1 .card{position: relative; border: none;}
 div.tec1  img{max-width:100%;display: block;}
@@ -47,7 +47,7 @@ div.tec2 .card:hover div.card-body1{opacity: 1;}
 div.tec2 .card a{display: block; background: rgba(0,0,0,.3); color:#fff; border: 1px solid #fff;}
 div.tec2 .card a:hover{background: rgba(255,255,255,.7); color:#00448d; border: 1px solid #00448d;}
 
-div.tec3{background: url(../images/main/tech_bg0.jpg) no-repeat center; background-size: cover;}
+div.tec3{background: url(../images/main/tech_bg3.jpg) no-repeat center; background-size: cover;}
 div.tec3 h2{font-size: 45px; color:#fff;}
 div.tec3 img{max-width: 100%; display: block;}
 div.tec3 h4{color:#fff; font-size: 20px;}
@@ -64,3 +64,98 @@ footer ul li a{color:#fff; display: block; text-align: center;}
 footer ul li a:hover{text-decoration: none; color:#fff;}
 footer address{color:#fff;}
 footer p{color:#aaa;}
+
+@media (max-width: 575px){
+  	.container {
+    max-width: 540px;
+ 	}
+  	.navbar-brand img{width: 50%;}
+  	button.navbar-toggler{margin:7px; margin-bottom:23px;}
+	.visual-text-sub img{width: 40%; padding-top: 30px;}
+	.visual-text-sub h2 img{margin-left: 320px;}
+	.visual-text-sub h3{display: none;}
+	.visual-text h4{display: none;}
+	.bx-wrapper .bx-pager {bottom: 30px;}
+	.bx-wrapper .bx-pager.bx-default-pager a{width: 15px;}
+	div.imgTxt p{display: none;}
+	.sub-title{font-size: 1.5rem !important;}
+	.tec3 h4{padding-top: 10px; font-size: 16px !important;}
+	.tec3 p{font-size: 12px !important;}
+	.footer .container ul, .footer .container address{display: none;}
+	.footer .container p{font-size: 10px; text-align: center;}
+	ul.navbar-nav{background: #fff;}
+	li.nav-item{padding-left: 10px;}
+	a.nav-link{color: #333 !important;}
+	a.nav-link:hover, a.nav-link:focus{color: #00448d !important;}
+	.navbar{padding-left: 0;}
+	.navbar-brand{padding-left: 10px;}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  	.container {
+    max-width: 540px;
+ 	}
+  	.navbar-brand img{width: 70%;}
+  	button.navbar-toggler{margin:7px; margin-bottom:23px;}
+	.visual-text-sub img{width: 50%; padding-top: 20px;}
+	.visual-text-sub h2 img{margin-left: 165px;}
+	.visual-text h4{font-size: 1.0rem; width: 707px; top: 125px;}
+	.bx-wrapper .bx-pager {bottom: 42px;}
+	.bx-wrapper .bx-pager.bx-default-pager a{width: 30px;}
+	div.imgTxt p{display: none;}
+	.sub-title{font-size: 2.0rem !important;}
+	.card{width: 90%;}
+	ul.navbar-nav{background: #fff;}
+	li.nav-item{padding-left: 10px;}
+	a.nav-link{color: #333 !important;}
+	a.nav-link:hover, a.nav-link:focus{color: #00448d;}
+	.navbar{padding-left: 0;}
+	.navbar-brand{padding-left: 10px;}
+}	
+
+@media (min-width: 768px) and (max-width: 991px){
+	.container {
+	  max-width: 908px;
+	}
+  	.navbar-brand img{width: 70%;}
+ 	button.navbar-toggler{margin:7px; margin-bottom:23px;}
+  	.visual-text-sub img{width: 65%; padding-top: 20px;}
+	.visual-text-sub h2 img{margin-left: 124px;}
+	.visual-text h4{font-size: 1.2rem; width: 746px;}
+	.bx-wrapper .bx-pager {bottom: 42px;}
+	.bx-wrapper .bx-pager.bx-default-pager a{width: 30px;}
+	div.imgTxt p{display: none;}
+	.sub-title{font-size: 2.0rem !important;}
+	.navar-collapse{padding-top: 10px;}
+	ul.navbar-nav{background: #fff;}
+	li.nav-item{padding-left: 10px;}
+	a.nav-link{color: #333 !important; display: block;}
+	a.nav-link:hover, a.nav-link:focus{color: #00448d;}
+	.navbar{padding-left: 0;}
+	.navbar-brand{padding-left: 10px;}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.container {
+    max-width: 960px;
+  }
+	.navbar-brand img{width: 80%;}
+	.navbar-nav .nav-item .nav-link{font-size: 14px;}
+	.visual-text-sub img{width: 70%; padding-top: 20px;}
+	.visual-text-sub h2 img{margin-left: 72px;}
+	.visual-text h4{font-size: 1.2rem; width: 746px;}
+  	.bx-wrapper .bx-pager {
+    bottom: 88px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1140px;
+  }
+  .bx-wrapper .bx-pager {
+    bottom: 100px;
+  }
+}
